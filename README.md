@@ -1,7 +1,7 @@
-# DepTest_ModuleB
-Dependency Test - Submodule B
+# DepTest_ModuleC
+Dependency Test - Submodule C
 
-[![Build Status](https://travis-ci.org/mezorian/DepTest_ModuleB.svg?branch=master)](https://travis-ci.org/mezorian/DepTest_ModuleB)
+[![Build Status](https://travis-ci.org/mezorian/DepTest_ModuleC.svg?branch=master)](https://travis-ci.org/mezorian/DepTest_ModuleC)
 
 ## Requirements 
 
@@ -12,8 +12,8 @@ Dependency Test - Submodule B
 
 ```bash
 # set variables
-repoName="DepTest_ModuleB"
-repoURL="https://github.com/mezorian/DepTest_ModuleB.git"
+repoName="DepTest_ModuleC"
+repoURL="https://github.com/mezorian/DepTest_ModuleC.git"
 branch="master"
 manifest="default.xml"
 
@@ -35,4 +35,3 @@ make
 ./untitled
 
 ```
-

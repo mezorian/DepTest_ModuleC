@@ -1,7 +1,7 @@
-#include "ModuleB.h"
+#include "ModuleC.h"
 
 int main() {
-    ModuleB b;
-    b.doSmth();
+    ModuleC c;
+    c.doSmth();
     return 0;
 }
