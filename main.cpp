@@ -1,7 +1,7 @@
 #include "ModuleC.h"
 
 int main() {
-    ModuleC c;
+    submodule_c::ModuleC c;
     c.doSmth();
     return 0;
 }
