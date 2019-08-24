@@ -3,15 +3,19 @@
 
 #include "mezorian/DepTest_Logging/Logger.h"
 
-using Logger = logger7::Logger;
+namespace submodule_c {
 
-class ModuleC {
-    public:
-        ModuleC() {}
-        void doSmth() {
-            Logger l;
-            l.log("ModuleC is doing smth");
-        }
-};
+    using Logger = logger10::Logger;
+
+    class ModuleC {
+        public:
+            ModuleC() {}
+            void doSmth() {
+                Logger l;
+                l.log("ModuleC is doing smth");
+            }
+    };
+
+}
 
 #endif // ModuleC_H
